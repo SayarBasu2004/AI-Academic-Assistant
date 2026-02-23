@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+https://ai-academic-assistant-cp8qn5ntgyqyhvpjvz4tda.streamlit.app/
+
 # Intelligent Academic Assistant
 
 The Intelligent Academic Assistant is a web-based application that uses Large Language Models to help students answer academic questions, summarize long texts, and understand concepts through an interactive Streamlit interface.
