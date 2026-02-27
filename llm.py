@@ -2,10 +2,9 @@ import os
 from huggingface_hub import InferenceClient
 
 client = InferenceClient(
-    model="mistralai/Mistral-7B-Instruct-v0.2",
+    model="meta-llama/Meta-Llama-3-8B-Instruct",
     token=os.getenv("HUGGINGFACE_API_KEY")
 )
-
 def ask_llm(prompt):
     try:
         response = client.chat.completions.create(
